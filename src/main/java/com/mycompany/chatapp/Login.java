@@ -203,8 +203,9 @@ public class Login {
         return "Username or password incorrect, please try again.";
     }
 
-    // ===== Getters (useful for unit tests and future parts) =====
-
+    // =========================================================
+    // Getters - used by the console interface and unit tests
+    // =========================================================
     public String getUsername() {
         return username;
     }
