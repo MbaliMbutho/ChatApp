@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
  * It stores the user's details and provides methods to validate
  * the username, password and cell phone number.
  *
- * @author Student
+ *  @author Mbali Mbutho
  */
 public class Login {
 
