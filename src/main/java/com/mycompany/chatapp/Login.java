@@ -22,7 +22,9 @@ public class Login {
     private String firstName;
     private String lastName;
 
-    // Fields storing the details of a successfully registered user
+    // Fields storing the details of a successfully registered user.
+    // These are only set once registerUser() succeeds, and are used
+    // by loginUser() to verify the credentials entered at login.
     private String registeredUsername;
     private String registeredPassword;
     private String registeredCellPhoneNumber;
