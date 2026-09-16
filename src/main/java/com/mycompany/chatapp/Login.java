@@ -67,7 +67,8 @@ public class Login {
         if (password == null || password.length() < 8) {
             return false;
         }
-
+        // A capital letter, a digit, and any character that is
+        // not a letter or a digit (i.e. a special character)
         boolean hasCapitalLetter = password.matches(".*[A-Z].*");
         boolean hasNumber = password.matches(".*[0-9].*");
         boolean hasSpecialCharacter = password.matches(".*[^a-zA-Z0-9].*");
