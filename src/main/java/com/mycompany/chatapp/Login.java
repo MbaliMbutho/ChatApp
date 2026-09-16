@@ -81,15 +81,11 @@ public class Login {
      * Cell phone regular expression reference:
      * Regular-Expressions.info
      * https://www.regular-expressions.info/
+     * Date accessed: 15 September 2026
      *
-     * The expression checks for the South African international
-     * code (+27) followed by exactly 9 digits.
-     */
-    /**
-     * Checks whether the cell phone number contains the international
-     * code followed by no more than ten characters.
-     *
-     * @return true if the cell phone number is correctly formatted
+     * The expression ^\+27[0-9]{9}$ matches the South African
+     * international code (+27) followed by exactly 9 digits,
+     * giving a maximum length of 10 characters after the code.
      */
     public boolean checkCellPhoneNumber() {
 
